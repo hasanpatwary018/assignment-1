@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* header start */
+.header{
+    height: 700px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.header-section{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    padding: 10px;
+    margin-top: 15%;
+}
+.header-section img{
+    width: 80%;
+}
+.header-section h1{
+    font-size: 40px;
+    color: rgb(255, 140, 159);
+}
+.header-section a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(255, 140, 159), tomato);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.header-section a:hover{
+    opacity: .5;
+    transition: .5s;
+}
+/* header end */
+/* midule start */
+.midule{
+    height: 800px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.midule-section{
+    width: 40%;
+    float: left;
+    margin-top: 20%;
+    margin-left: 50px;
+    padding: 10px;
+}
+.midule-section img{
+    width: 80%;
+}
+.ms{
+   margin-top: 40%;
+}
+.midule-section a{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    color: white;
+    display: inline-block;
+    padding: 5px 13px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+/* midule end */
+/* last work start*/
+.last{
+    height: 350px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.last h2{
+    text-align: center;
+}
+.last-work{
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.last-work img{
+   width: 80%;
+}
+/* last work end */
+/* client section start*/
+.client{
+    height: 700px;
+    background-image: url("images//footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.client-opinion{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.client-opinion h1{
+    margin-bottom: 40px;
+}
+.client-opinion p{
+    margin-top: 20px;
+    width: 300px;
+    display: inline-block;
+}
+.message{
+    background-color: rgb(245, 88, 135);
+    color: white;
+    padding: 15px 80px;
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+/* client section end*/
+footer p{
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 50px;
+}
